@@ -60,7 +60,7 @@ main_scrcpy(int argc, char *argv[]) {
 
     if (args.opts.update_terminal_title) {
         sc_term_save_title();
-        sc_term_set_title("scrcpy");
+        sc_term_set_title("ZenMirror");
         term_title_saved = true;
     }
 

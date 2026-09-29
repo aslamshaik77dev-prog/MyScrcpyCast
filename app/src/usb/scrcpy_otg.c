@@ -200,7 +200,7 @@ scrcpy_otg(struct scrcpy_options *options) {
             set_terminal_title_with_prefix(window_title);
         }
     } else {
-        window_title = "scrcpy";
+        window_title = "ZenMirror";
     }
 
     struct sc_screen_params params = {
